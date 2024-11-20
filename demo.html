@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center p-4">
+        <h1>PRANAV HANDE</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Logo</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Profile Section -->
+    <section class="container text-center mt-5">
+        <img src="profile.jpg" alt="Profile Photo" class="rounded-circle mb-3" style="width:150px;">
+        <h2>PRANAV HANDE</h2>
+        <p>..... Some desc.....</p>
+    </section>
+    
+    <!-- Education Section -->
+    <section class="container text-center mt-5">
+        <h3>Education</h3>
+        <ul class="nav nav-pills justify-content-center mt-3">
+            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#ssc">SSC</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#hsc">HSC</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#be">BE</a></li>
+        </ul>
+        <div class="tab-content mt-3">
+            <div class="tab-pane container active" id="ssc">
+                <p>Achieved 85% With Distinction</p>
+                <img src="school_photo.jpg" alt="School Photo" class="img-fluid">
+            </div>
+            <div class="tab-pane container fade" id="hsc">
+                <!-- Content for HSC -->
+            </div>
+            <div class="tab-pane container fade" id="be">
+                <!-- Content for BE -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="container mt-5">
+        <h3 class="text-center">Skill Set</h3>
+        <div class="d-flex justify-content-around mt-3">
+            <span>Java</span>
+            <span>HTML</span>
+            <span>SQL</span>
+            <span>Javascript</span>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="container mt-5">
+        <h3 class="text-center">Contact Form</h3>
+        <form class="text-center">
+            <input type="text" class="form-control mb-2" placeholder="Name">
+            <input type="email" class="form-control mb-2" placeholder="Email">
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <div class="text-center mt-3">
+            <p>Contact no: 999</p>
+            <p>Email: hh@h.com</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2023 Design By: Pranav Hande</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
